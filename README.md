@@ -4,7 +4,7 @@ Database seeders for our laravel applications.
 
 ## Install 
 
-This pckage is custom built for [this organization](https://github.com/nuclear-campain)!
+This package is custom built for [this organization](https://github.com/nuclear-campain)!
 
 But you can install the package via composer: 
 
@@ -18,6 +18,8 @@ For pulling the package in and further u need to install the [spatie/laravel-per
 $ php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider" --tag="migrations"
 $ php artisan migrate
 ```
+
+Don't forget to install `spatie/laravel-permission` scaffolding in your application. 
 
 ## Overview 
 
