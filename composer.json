@@ -15,7 +15,8 @@
     "require": {
         "php" : "^7.0",
         "illuminate/database": "5.*",
-        "illuminate/support": "5.*"
+        "illuminate/support": "5.*",
+        "spatie/laravel-permission": "^2.25"
     },
     "autoload": {
         "psr-4": {

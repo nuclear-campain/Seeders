@@ -43,7 +43,7 @@ class DatabaseSeeder extends BaseDatabaseSeeder
     {
         parent::run();
 
-        $this->call(AclTableSeeder::class);
+        $this->call(AclTableSeeder::class); // Out of the box ACL seeder for the database.
     }
 }
 ```
