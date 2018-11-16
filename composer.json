@@ -1,0 +1,25 @@
+{
+    "name": "b61/seeders",
+    "description": "Base seeders for our laravel applications", 
+    "keywords": ["b61", "laravel", "database", "seeders"], 
+    "homepage": "https://github.com/nuclear-campain/seeders", 
+    "license": "MIT", 
+    "authors": [
+        {
+            "name": "Tim Joosten", 
+            "email": "Tim@activisme.be", 
+            "homepage": "https://activisme.be",
+            "role": "Developer"
+        }
+    ], 
+    "require": {
+        "php" : "^7.0",
+        "illuminate/database": "5.*",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ActivismeBe\\Seeders\\": "src"
+        }
+    }
+}
