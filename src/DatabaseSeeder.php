@@ -1,6 +1,6 @@
 <?php 
 
-namespace ActivismeBe\Seeders;
+namespace ActivismBe\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
