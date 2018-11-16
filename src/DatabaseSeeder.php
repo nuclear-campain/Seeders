@@ -61,6 +61,6 @@ class DatabaseSeeder extends Seeder
                 DB::table($tableName)->truncate();
             });
 
-            Schema::enableForeignKeyConstraints();
+        Schema::enableForeignKeyConstraints();
     }
 }
