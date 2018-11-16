@@ -42,7 +42,6 @@ class DatabaseSeeder extends BaseDatabaseSeeder
     public function run(): void 
     {
         parent::run();
-
         $this->call(AclTableSeeder::class); // Out of the box ACL seeder for the database.
     }
 }
