@@ -2,6 +2,10 @@
 
 All Notable changes to `seeders` will be documented in this file. 
 
+## 0.1.3 - 2018-11-17
+
+- Fix (#3) undefined function. `->createRoleIfNotExists(string $roles)`.
+
 ## 0.1.2 - 2018-11-17
 
 - Squash namespaces in DatabaseSeeder.php 
