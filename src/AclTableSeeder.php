@@ -102,6 +102,16 @@ class AclTableSeeder extends DatabaseSeeder
             $this->command->warn('Password is "secret"');
         }
     }
+    
+    /**
+     * Function for getting the permissions that assigned to normal users. 
+     * 
+     * @return void
+     */
+    protected function getUserPermissions(): Collection
+    {
+        return Permission::where('name', 'LIKE', 'view_%')->get();
+    }
 
     /**
      * Determine if the created role is admin or not. 
