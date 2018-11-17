@@ -38,7 +38,7 @@ class DatabaseSeeder extends Seeder
     protected function canResetDatabase(): bool
     {
         return ! app()->environment(['production', 'prod'])
-            && $this->command->confirm('Do you wish to refresh migrations before seeding, it will clear all old data?');
+            && $this->command->confirm('Do you wish to empty all the database tables before seeding, it will clear all old data?');
     }
 
     /**
