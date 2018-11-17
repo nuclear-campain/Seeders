@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ActivismeBe\\Seeders\\": "src"
+            "ActivismBe\\Seeders\\": "src"
         }
     }
 }
