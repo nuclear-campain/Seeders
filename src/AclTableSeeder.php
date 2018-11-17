@@ -74,7 +74,7 @@ class AclTableSeeder extends DatabaseSeeder
      * @param  string $roles The one dimensional array for the given roles.
      * @return void
      */
-    protected function createRoleIfNotExist(string $roles): void 
+    protected function createRoleIfNotExists(string $roles): void 
     {
         foreach (explode(',', $roles) as $role) {
             $role = Role::firstOrCreate(['name' => trim($role)]);
